@@ -89,3 +89,5 @@ target/
 .mypy_cache/
 
 myenv
+echo "tweet_emotions.csv" >> .gitignore
+printf "myenv/\n.venv/\n__pycache__/\n.ipynb_checkpoints/\n*.pyc\n.env\n" >> .gitignore
